@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+.user-table-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.user-table td button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.user-table td button:nth-child(1) {
+  background-color: #FFA500;
+  color: white;
+  margin-right: 5px;
+}
+
+.user-table td button:nth-child(1):hover {
+  background-color: #FF8C00;
+}
+
+.user-table td button:nth-child(2) {
+  background-color: #FF6347;
+  color: white;
+}
+
+.user-table td button:nth-child(2):hover {
+  background-color: #FF4500;
+}
+
+
+.user-table-container {
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f9f9f9;
+}
